@@ -31,7 +31,7 @@ This repository showcases multiple implementations of LLM agents using different
 
 1. #Clone the repo
 
-   git clone https://github.com/Rapoluakash/AI-Multi-Agent-Hub-for-Finance-News-E-Commerce-Phi-Agents
+   git clone [https://github.com/Rapoluakash/AI-Multi-Agent-Hub-for-Finance-News-E-Commerce-Phi-Agents](https://github.com/Rapoluakash/AI-Multi-Agent-Hub-for-Finance-News-E-Commerce-Phi-Agents-)
   
 
 
