@@ -1,1 +1,8 @@
 
+phi==0.6.7
+yfinance
+openai
+python-dotenv
+groq
+ollama
+langchain
