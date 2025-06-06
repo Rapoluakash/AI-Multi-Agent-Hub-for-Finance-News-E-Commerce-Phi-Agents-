@@ -1,4 +1,4 @@
-name: Python App CI
+name: Run Multi-Agent Suite
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build:
+  run-agents:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,5 +26,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run your script
-        run: python your_script.py
+      - name: Run Groq Agent
+        run: python groq_agents.py
+
+      - name: Run LangGraph Agent
+        run: python llm_multi_agent.py
+
+      - name: Run OpenAI Agent
+        run: python openai_agents2.py
+
+      - name: Run Ollama Agent
+        run: python ollama_agents.py
